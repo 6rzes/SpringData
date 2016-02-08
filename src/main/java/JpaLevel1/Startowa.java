@@ -9,6 +9,9 @@ import java.util.Random;
 
 public class Startowa {
     public static void main(String[] args) {
+
+//        dodatkowy niepotrzebny komentarz
+        
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("jpa-spring-config.xml");
 
         PersonRepo personRepo = ctx.getBean(PersonRepo.class);
