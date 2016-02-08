@@ -2,7 +2,6 @@ package JpaLevel1;
 
 import JpaLevel1.Domain.Person;
 import JpaLevel1.Domain.PersonRepo;
-import PureSpring.BeanB;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Random;
